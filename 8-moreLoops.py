@@ -50,4 +50,4 @@ print(capitalLetters)
 # This solution uses a slice
 # apparently you can use [::7] outside the range value (100)
 for i in range(100)[::7]:
-    print(i)
+	print(i)
