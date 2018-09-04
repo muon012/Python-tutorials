@@ -39,7 +39,7 @@
 # done()
 #
 print("------------------------- 4 -------------------------")
-# One last method that we can use when using "import."
+# One last method that we can use when using "import." But not recommended.
 # You could use "import *" but this is frowned upon since you could declare a variable that has the same name as one
 # of the elements imported from that module and therefore cause errors.
 
