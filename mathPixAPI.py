@@ -11,6 +11,6 @@ dog_path = "http://www.smalldogbreeds.info/wp-content/uploads/2016/02/teddy-bear
 r = requests.post("https://api.mathpix.com/v3/latex",
     data=json.dumps({'src': file_path,
                      'ocr': ["math", "text"]}),
-    headers={"app_id": "eduardessco_hotmail_com", "app_key": "e105c1eaf3fac713074a",
+    headers={"app_id": "", "app_key": "",
             "Content-type": "application/json"})
 print(json.dumps(json.loads(r.text), indent=4, sort_keys=True))

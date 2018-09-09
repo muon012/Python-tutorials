@@ -26,8 +26,7 @@ while True:
 
 	# Create the 9 random timezones and append them to the empty "timeZoneList" list:
 	for i in range(1, 10):
-		totalTimeZones = len(
-			pytz.all_timezones)  # "len()" function will let us count the number of elements in the list.
+		totalTimeZones = len(pytz.all_timezones) # "len()" will let us count the number of elements in the list.
 		randomIndex = random.randint(1, totalTimeZones)  # Create a random number between 1 - 591 (# of time zones).
 		timeZonesList.append(pytz.all_timezones[randomIndex])
 
@@ -45,7 +44,7 @@ while True:
 	print()
 
 	# Assign the user input to a variable.
-	userChoice = input("Choose a number from the time zones above: ").lower()
+	userChoice = input("Choose a number from the time zones above (Press 0 to exit): ").lower()
 	if userChoice == "0":
 		print("Bye")
 		timeZonesList = [] # We empty the list so we can keep showing only 9 results each time the loop runs.
