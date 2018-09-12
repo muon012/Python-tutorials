@@ -25,8 +25,9 @@ def draw_axes(canvas):
 	canvas.create_line(-x_origin, 0, x_origin, 0, fill="blue") # Creating the x-axis;
 	canvas.create_line(0, y_origin, 0, -y_origin, fill="blue") # Creating the y-axis;
 	print(locals())
-# You cannot create points with canvas, but you can create lines of length=1, which will serve as points;
 
+
+# You cannot create points with canvas, but you can create lines of length=1, which will serve as points;
 # Function for plotting the lines;
 def plot(canvas, x, y):
 	canvas.create_line(x, y, x + 1, y + 1, fill="red")

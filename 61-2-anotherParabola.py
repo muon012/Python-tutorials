@@ -1,12 +1,11 @@
-
 import tkinter as tk
 
 
-# Definition of a parabola;
-def parabola(page, size):
+# Graph to be plotted;
+def graph(page, exponent, size, color):
 	for x in range(-size, size):
-		y = x ** 2 / size
-		plot(page, x, y)
+		y = x ** exponent / size
+		plot(page, x, y, color)
 
 
 # Creating a window;
@@ -31,18 +30,17 @@ def draw_axes(page):
 
 # You cannot create points with canvas, but you can create lines of length=1, which will serve as points;
 # Function for plotting the lines;
-def plot(quadrant, x, y):
-	quadrant.create_line(x, -y, x + 1, -y + 1, fill="red") # Remember to change the y value to -y;
+def plot(quadrant, x, y, color):
+	quadrant.create_line(x, -y, x + 1, -y + 1, fill=color) # Remember to change the y value to -y;
 
 
 # Call the canvas function;
 draw_axes(canvas)
 
 # Call the function to draw the graph;
-parabola(canvas, 500)
-parabola(canvas, 100)
+graph(canvas, 3, 100, "red")
+graph(canvas, 2, 100, "green")
+graph(canvas, 4, 10000, "black")
 
 # We run the loop so we can display the window and everything inside it:
 mainWindow.mainloop()
-
-# See line 35, use -y instead of y for a cool effect similar to finding the integral of the parabola!
