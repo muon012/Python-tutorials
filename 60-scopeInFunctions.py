@@ -26,7 +26,6 @@ def draw_axes(canvas):
 	canvas.create_line(0, y_origin, 0, -y_origin, fill="blue") # Creating the y-axis;
 	print(locals())
 
-
 # You cannot create points with canvas, but you can create lines of length=1, which will serve as points;
 # Function for plotting the lines;
 def plot(canvas, x, y):
@@ -54,7 +53,7 @@ draw_axes(canvas2)
 
 print(repr(canvas), repr(canvas2)) # The last value of each object is the variable's memory location.
 
-# Check line 27, "print(locals())" as this function will define all the local variables available to a function.
+# Check line 27, "print(locals())" will define all the local variables available to that function.
 # The locals function must be inside the function/object you want to define its variables.
 
 # Just remember that a function can use the variables of the main program but the main program cannot use the variables

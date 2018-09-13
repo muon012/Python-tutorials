@@ -9,7 +9,8 @@ def circle(page,radius, h, k):
 		plot(page, -x, y) # Quadrant II
 		plot(page, -x, -y) # Quadrant III
 		plot(page, x, -y) # Quadrant IV
-		# Now we run a second loop but this time using x so that the graph has more points on it.
+		# Now we run a second loop but this time using x so that the graph has more points on it. So that the lines
+		# are more "filled";
 	for y in range(k, k + radius):
 		x = h + (math.sqrt(radius ** 2 - ((y - k) ** 2)))
 		plot(page, x, y) # Quadrant I

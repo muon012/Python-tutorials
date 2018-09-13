@@ -17,6 +17,7 @@ print("------------------------------------- 2 ---------------------------------
 # No we will use the "return" key
 # This function will return something and that will be printed with "print()"
 
+
 def center_text(*args, sep=' '):
 	text = ""
 	for arg in args:

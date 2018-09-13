@@ -1,5 +1,8 @@
 
 import tkinter as tk
+import random
+
+random.randint(2)
 
 # Definition of a parabola;
 def parabola(x):

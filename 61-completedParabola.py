@@ -45,4 +45,5 @@ parabola(canvas, 100)
 # We run the loop so we can display the window and everything inside it:
 mainWindow.mainloop()
 
-# See line 35, use -y instead of y for a cool effect similar to finding the integral of the parabola!
+# See line 35, use y instead of -y on the second parameter for a cool effect similar to finding the integral
+# of the parabola.
