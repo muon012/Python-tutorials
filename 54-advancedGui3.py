@@ -31,7 +31,7 @@ for zone in os.listdir('/usr/bin'):
 	fileList.insert(tkinter.END, zone)
 
 # We create a scrolling bar in the y direction and link it to the list element.
-listScroll = tkinter.Scrollbar(mainWindow, orient=tkinter.VERTICAL, command=fileList.yview())
+listScroll = tkinter.Scrollbar(mainWindow, orient=tkinter.VERTICAL, command=fileList.yview)
 listScroll.grid(row=1, column=1, sticky='nws', rowspan=2)
 fileList['yscrollcommand'] = listScroll.set
 

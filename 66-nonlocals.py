@@ -2,7 +2,7 @@
 # print("--------------------------------- 1 ---------------------------------")
 # # A much more detailed way of listing files and directories;
 # # with "nonlocal" python is searching for the variable in the enclosing scopes and not in the global scale;
-# # In this code, python is looking for the varible in the function outside the function where "nonlocal" is called
+# # In this code, python is looking for the variable in the function outside the function where "nonlocal" is called
 # # but not outside of all the functions (global);
 # # In python, the only things that create scope are modules, functions, and classes; For loops also create global
 # # variables;

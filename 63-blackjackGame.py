@@ -79,11 +79,13 @@ def deal_dealer():
 		dealer_hand.append(deal_card(dealer_card_frame))
 		dealer_score = score_hand(dealer_hand)
 		dealer_score_label.set(dealer_score)
+		print(" -condition1-")
 	player_score = score_hand(player_hand)
 	if player_score > 21:
 		result_text.set("Dealer wins!")
 	elif dealer_score > 21 or dealer_score < player_score:
 		result_text.set("Player wins!")
+		print(" -condition2-")
 	elif dealer_score > player_score:
 		result_text.set("Dealer wins!")
 	else:
@@ -214,6 +216,12 @@ restart_button.grid(row=0, column=2)
 # Button to shuffle;
 restart_button = tk.Button(button_frame, text="Shuffle", command=shuffle)
 restart_button.grid(row=0, column=3)
+
+# We create a scrolling bar in the x direction and link it to the list element.
+cardsScroll = tk.Scrollbar(button_frame, orient=tk.HORIZONTAL)
+cardsScroll.grid(row=0, column=4, sticky='nws', rowspan=4)
+# game_Frame['xscrollcommand'] = game_Frame.set
+
 
 
 # Calling the load_cards_images();
