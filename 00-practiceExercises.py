@@ -197,24 +197,57 @@
 # 		goodList.append(i)
 # print(goodList) # Final result!
 #
-print("------------------------------------ 11 ------------------------------------")
-# Ask the user for a number and determine whether the number is prime or not;
-import math
+# print("------------------------------------ 11 ------------------------------------")
+# # Ask the user for a number and determine whether the number is prime or not;
+#
+#
+# # Function to check whether the input can be changed into an integer.
+# def inputNumber(text="Please input a number: "):
+# 	while True:
+# 		try:
+# 			user_input = int(input(text))
+# 		except ValueError:
+# 			print("Not an integer! Try again.")
+# 			continue
+# 		else:
+# 			return user_input
+#
+#
+# number = inputNumber()
+#
+#
+# def is_prime(num):
+# 	if num == 2:
+# 		return True
+# 	elif num > 2:
+# 		for i in range(2, num + 1):
+# 			if num % i == 0:
+# 				return False
+# 			else:
+# 				return True
+# 	else:
+# 		return False
+#
+#
+# def print_boolean(boolean):
+# 	if boolean:
+# 		print("Your number is a prime.")
+# 	else:
+# 		print("Your number is not a prime.")
+#
+#
+# print_boolean(is_prime(number))
+
+print("------------------------------------ 12 ------------------------------------")
+# Write a program that takes in a list and creates a new list of only the first and last elements;
+# Use functions;
+
+test = list(range(1, 45))
 
 
-def inputNumber(text="Please input a number: "):
-	while True:
-		try:
-			userInput = int(input(text))
-		except ValueError:
-			print("Not an integer! Try again.")
-			continue
-		else:
-			print("This i")
-			return userInput
+def endpoints(li):
+	return [li[0], li[-1]]
 
 
-inputNumber()
-print("Hi")
-
+print(endpoints(test))
 
