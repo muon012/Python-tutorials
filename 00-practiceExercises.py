@@ -237,17 +237,111 @@
 #
 #
 # print_boolean(is_prime(number))
+#
+# print("------------------------------------ 12 ------------------------------------")
+# # Write a program that takes in a list and creates a new list of only the first and last elements;
+# # Use functions;
+#
+# test = list(range(1, 45))
+#
+#
+# def endpoints(li):
+# 	return [li[0], li[-1]]
+#
+#
+# print(endpoints(test))
+#
+# print("------------------------------------ 13 ------------------------------------")
+# # Write a program that asks the user how many Fibonacci numbers to print;
+#
+#
+# def fibonacci():
+# 	n = int(input("How many Fibonacci numbers do you want to see? "))
+# 	if n == 0:
+# 		print(0)
+# 	elif n == 1:
+# 		print(1)
+# 	else:
+# 		n_minus1 = 1
+# 		n_minus2 = 0
+# 		for f in range(2, n + 2):
+# 			result = n_minus1 + n_minus2
+# 			n_minus2 = n_minus1
+# 			n_minus1 = result
+# 			print(result)
+#
+#
+# fibonacci()
+#
+# print("------------------------------------ 14 ------------------------------------")
+# # Write a program that takes a list and returns a new one that contains all the elements of the first list except
+# # the duplicates.
+#
+#
+# # Using sets
+# def no_copies(li):
+# 	return list(set(li)) # Converting the list into a set removes the duplicates, we then convert back it into a list
+#
+#
+# # Using loops
+# def no_copies2(li):
+# 	my_list = []
+# 	for i in li:
+# 		if i not in my_list:
+# 			my_list.append(i)
+# 	return my_list
+#
+#
+# # Using list compression
+# def no_copies3(li):
+# 	my_list = []
+# 	[my_list.append(i) for i in li if i not in my_list]
+# 	return my_list
+#
+#
+# new_list = [1, 3, 1, 4, 5, 3]
+# print(no_copies(new_list))
+# print(no_copies2(new_list))
+# print(no_copies3(new_list))
+#
+print("------------------------------------ 15 ------------------------------------")
+# Create a program that takes in a sentence and returns the sentence in reverse order, ( It is mine --> mine is It)
 
-print("------------------------------------ 12 ------------------------------------")
-# Write a program that takes in a list and creates a new list of only the first and last elements;
-# Use functions;
 
-test = list(range(1, 45))
-
-
-def endpoints(li):
-	return [li[0], li[-1]]
+def reverse():
+	message = input("Enter a message: ")
+	return " ".join(message.split(" ")[::-1])
 
 
-print(endpoints(test))
+print(reverse())
 
+# print("------------------------------------ 39 ------------------------------------")
+# # Create a program that randomizes the order of the alphabet, but lower and upper case letters
+# import random
+#
+#
+# alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# print(len(alphabet))
+# key = set()
+# for i in alphabet: # For every letter in the alphabet string ...
+# 	while len(key) != len(alphabet): # While the set is not filled with 52 letters ...
+# 		if alphabet[random.randint(0, 51)] not in key: # If that letter is not yet part of the set ...
+# 			key.add(alphabet[random.randint(0, 51)]) # Then add it to the set.
+# print("".join(key))
+# print(len(key))
+#
+#
+# print("------------------------------------ 40 ------------------------------------")
+# # Create a multiplications table function that shows the first x values for every table up to n
+#
+# def tables():
+# 	# Number of tables
+# 	n = int(input("Enter how many multiplications tables you want to display: "))
+# 	x = int(input("Enter up to what number each table will multiply to: "))
+# 	for i in range(1, n + 1):
+# 		for j in range(1, x + 1):
+# 			print("{} x {} = {}".format(i, j, i * j))
+# 		print("")
+#
+#
+# tables()

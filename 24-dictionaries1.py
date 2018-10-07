@@ -1,7 +1,7 @@
 
 # In python, dictionaries are unodered sets. Using an index is useless to access an element. We therefore use
 # a key.
-# Dictionaries in python are a objects in Js.
+# Dictionaries in python are objects in JS.
 
 fruit = {"orange": "a sweet, orange, citrus fruit",
 		 "apple": "good for making cider",
