@@ -1,5 +1,5 @@
 # Function to check whether the input can be changed into an integer.
-def inputNumber(text="Please input a number: "):
+def input_number(text="Please input a number: "):
 	while True:
 		try:
 			user_input = int(input(text))
@@ -10,4 +10,4 @@ def inputNumber(text="Please input a number: "):
 			return user_input
 
 
-number = inputNumber()
+number = input_number()

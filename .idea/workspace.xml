@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d3d417-280f-4550-8a00-134eca43b2d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../100-pythonExercises/0-writingFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../100-pythonExercises/101-points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../100-pythonExercises/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../100-pythonExercises/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../100-pythonExercises/7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-tutorials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-tutorials.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-practiceExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/00-practiceExercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-checkInputFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-checkInputFunction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24-dictionaries1.py" beforeDir="false" afterPath="$PROJECT_DIR$/24-dictionaries1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/65-recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/65-recursion.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,124 +61,52 @@
     <session id="1988251577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7574" />
+          <entry key="py" value="21726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7574" />
+          <entry key="Python" value="21726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="58" />
+          <entry key="json" value="2" />
+          <entry key="py" value="180" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="58" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="180" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00-practiceExercises.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="311" column="36" selection-start-line="311" selection-start-column="36" selection-end-line="311" selection-end-column="36" />
-              <folding>
-                <marker date="1538883856487" expanded="true" signature="8057:8164" ph="..." />
-                <marker date="1538883856487" expanded="true" signature="8775:9006" ph="..." />
-                <marker date="1538883856487" expanded="true" signature="10034:10136" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/24-dictionaries1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/25-dictionaries2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-545" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/26-dictionaries3-joins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-610" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/27-dictionariesChallenge-splits.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1599" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/28-dictionaries4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-941" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../100-pythonExercises/13.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../100-pythonExercises/101-points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../100-pythonExercises/14.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../100-pythonExercises/12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="765">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -207,62 +126,62 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../100-pythonExercises" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/47-timeZones2.py" />
-        <option value="$PROJECT_DIR$/48-timeZoneChallenge.py" />
-        <option value="$PROJECT_DIR$/49-introTkinter.py" />
-        <option value="$PROJECT_DIR$/50-tkinterPackGeometryMngr.py" />
-        <option value="$PROJECT_DIR$/51-gridGeometryMngr.py" />
-        <option value="$PROJECT_DIR$/mathPixAPI.py" />
-        <option value="$PROJECT_DIR$/52-advancedGui1.py" />
-        <option value="$PROJECT_DIR$/53-advancedGui2.py" />
-        <option value="$PROJECT_DIR$/55-tkinterChallenge.py" />
-        <option value="$PROJECT_DIR$/56-introToFunctions.py" />
-        <option value="$PROJECT_DIR$/56-functions1.py" />
-        <option value="$PROJECT_DIR$/57-functions2.py" />
-        <option value="$PROJECT_DIR$/58-functions3.py" />
-        <option value="$PROJECT_DIR$/61-2-anotherParabola.py" />
-        <option value="$PROJECT_DIR$/61-completedParabola.py" />
-        <option value="$PROJECT_DIR$/59-parabola.py" />
-        <option value="$PROJECT_DIR$/60-scopeInFunctions.py" />
-        <option value="$PROJECT_DIR$/62-circle.py" />
-        <option value="$PROJECT_DIR$/63-blackjackSetup.py" />
-        <option value="$PROJECT_DIR$/64-importingTechniques.py" />
-        <option value="$PROJECT_DIR$/apiTest.py" />
-        <option value="$PROJECT_DIR$/54-advancedGui3.py" />
-        <option value="$PROJECT_DIR$/63-blackjackGame.py" />
-        <option value="$PROJECT_DIR$/00-practice exercises.py" />
-        <option value="$PROJECT_DIR$/66-nonlocals.py" />
-        <option value="$PROJECT_DIR$/1-print.py" />
-        <option value="$PROJECT_DIR$/01-checkInputFunction.py" />
-        <option value="$PROJECT_DIR$/65-recursion.py" />
-        <option value="$PROJECT_DIR$/00-practiceExercises.py" />
-        <option value="$PROJECT_DIR$/../100-pythonProblems/1-exercise.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/1-exercise.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/3-exercise.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/4-exercise.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/2-exercise.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/1.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/2.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/3.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/4.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/5.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/6.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/7.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/8.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/9.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/0-writingFiles.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/10.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/11.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/12.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/13.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/14.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/101-points.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/32.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/33.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/34.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/35.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/30.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/words1.txt" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/36.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/37.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/words2.txt" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/38.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/39.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/40.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/41.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/42.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/43.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/44.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/45.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/46.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/47.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/48.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/49.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/50.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/52.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/51.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/53.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/54.py" />
         <option value="$PROJECT_DIR$/24-dictionaries1.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/56.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/57.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/55.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/58.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/company1.json" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/59.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/60.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/61.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/62.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/63.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/64.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/65.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/66.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/67.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/68.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/69.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/70.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/72.py" />
+        <option value="$PROJECT_DIR$/01-checkInputFunction.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/71.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/73.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/74.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/75.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/101-points.py" />
       </list>
     </option>
   </component>
@@ -282,10 +201,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="Python-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-tutorials" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="Python-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="100-pythonExercises" type="462c0819:PsiDirectoryNode" />
@@ -312,8 +227,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14">
-    <configuration name="10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.74">
+    <configuration name="70" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100-pythonProblems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,7 +240,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/70.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="71" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100-pythonProblems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,7 +261,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/71.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="72" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100-pythonProblems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,7 +282,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/72.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="73" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100-pythonProblems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,7 +303,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/73.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -397,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="74" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100-pythonProblems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -409,7 +324,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/74.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,19 +334,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.10" />
-      <item itemvalue="Python.11" />
-      <item itemvalue="Python.12" />
-      <item itemvalue="Python.13" />
-      <item itemvalue="Python.14" />
+      <item itemvalue="Python.70" />
+      <item itemvalue="Python.71" />
+      <item itemvalue="Python.72" />
+      <item itemvalue="Python.73" />
+      <item itemvalue="Python.74" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14" />
-        <item itemvalue="Python.13" />
-        <item itemvalue="Python.12" />
-        <item itemvalue="Python.11" />
-        <item itemvalue="Python.10" />
+        <item itemvalue="Python.74" />
+        <item itemvalue="Python.73" />
+        <item itemvalue="Python.71" />
+        <item itemvalue="Python.72" />
+        <item itemvalue="Python.70" />
       </list>
     </recent_temporary>
   </component>
@@ -456,8 +371,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38825214" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32808024" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3495702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,20 +386,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16133828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1598513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29942694" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38825214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295129" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -520,100 +435,233 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5-advancedIfStatements.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/45i.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-ifStatements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-whileLoops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-whileChallenge.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/45o.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-lists1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16-lists2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-listsChallenge.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/45a.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/18-iterators.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/43.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19-ranges1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20-ranges2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21-tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="1118" column="8" selection-start-line="1118" selection-start-column="8" selection-end-line="1118" selection-end-column="8" />
+        <state relative-caret-position="320">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/536139761/builtins.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/44.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="5504" column="8" selection-start-line="5504" selection-start-column="8" selection-end-line="5504" selection-end-column="8" />
+        <state relative-caret-position="40">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6-ifChallenge.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/0-writingFiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/57-functions2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/56-functions1.py">
+    <entry file="file://$PROJECT_DIR$/32-introInputOutput.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/23-binary.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/46.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/30-sets.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/47.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/45.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-dictionaries1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25-dictionaries2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/53.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/52.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/51.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/54.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8-moreLoops.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/56.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/56.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/57.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/company1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/58.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/60.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="108" selection-start-line="10" selection-start-column="108" selection-end-line="10" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/61.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/59.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/62.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/63.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/65.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/66.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/requests.py" />
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/67.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/48.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/49.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="120" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -624,207 +672,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/65-recursion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonProblems/1-exercise.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/sampledata_x_2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/1-exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/2-exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/3-exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/4-exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/33-writingTextFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/16.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/requestsFile.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/0-writingFiles.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/68.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/34-appendingFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/10.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/69.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/6.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/70.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/11.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/71.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/72.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/12.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/73-timesTwo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="-85" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/74-pandas.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/73.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/13.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/74.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="370">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/14.py">
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/75.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#142#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../100-pythonExercises/101-points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00-practiceExercises.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="311" column="36" selection-start-line="311" selection-start-column="36" selection-end-line="311" selection-end-column="36" />
-          <folding>
-            <marker date="1538883856487" expanded="true" signature="8057:8164" ph="..." />
-            <marker date="1538883856487" expanded="true" signature="8775:9006" ph="..." />
-            <marker date="1538883856487" expanded="true" signature="10034:10136" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25-dictionaries2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26-dictionaries3-joins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27-dictionariesChallenge-splits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1599" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/28-dictionaries4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-941" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/24-dictionaries1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="765">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
