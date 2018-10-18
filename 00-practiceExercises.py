@@ -314,7 +314,6 @@ def reverse():
 
 
 print(reverse())
-
 # print("------------------------------------ 39 ------------------------------------")
 # # Create a program that randomizes the order of the alphabet, but lower and upper case letters
 # import random
