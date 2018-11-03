@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d3d417-280f-4550-8a00-134eca43b2d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/67-introOOP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/69-docstrings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/70-musicClassExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../100-pythonExercises/74.py" beforeDir="false" afterPath="$PROJECT_DIR$/../100-pythonExercises/74.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00-practiceExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/00-practiceExercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70-musicClassExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/70-musicClassExample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,94 +103,63 @@
     <session id="-1678618837">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5252" />
+          <entry key="py" value="11013" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5252" />
+          <entry key="Python" value="11013" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="9" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00-practiceExercises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4710">
-              <caret line="314" selection-start-line="314" selection-end-line="314" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/66-nonlocals.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/67-introOOP.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="283">
+              <caret line="384" column="7" selection-start-line="384" selection-start-column="7" selection-end-line="384" selection-end-column="7" />
               <folding>
-                <marker date="1539813933146" expanded="true" signature="248:540" ph="..." />
+                <element signature="e#12711#12726#0" expanded="true" />
+                <marker date="1541044000524" expanded="true" signature="12231:12234" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/68-methods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="14" column="91" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1539844247875" expanded="true" signature="131:211" ph="..." />
-                <marker date="1539844247875" expanded="true" signature="208:209" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/69-docstrings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <marker date="1539850705542" expanded="true" signature="571:573" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/70-musicClassExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="1650">
+              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
               <folding>
-                <marker date="1539851443628" expanded="true" signature="365:367" ph="..." />
+                <marker date="1540510983200" expanded="true" signature="365:367" ph="..." />
+                <marker date="1540510983200" expanded="true" signature="1273:1275" ph="..." />
               </folding>
             </state>
           </provider>
@@ -261,14 +228,14 @@
         <option value="$PROJECT_DIR$/01-checkInputFunction.py" />
         <option value="$PROJECT_DIR$/../100-pythonExercises/71.py" />
         <option value="$PROJECT_DIR$/../100-pythonExercises/73.py" />
-        <option value="$PROJECT_DIR$/../100-pythonExercises/74.py" />
         <option value="$PROJECT_DIR$/../100-pythonExercises/75.py" />
         <option value="$PROJECT_DIR$/../100-pythonExercises/101-points.py" />
-        <option value="$PROJECT_DIR$/00-practiceExercises.py" />
         <option value="$PROJECT_DIR$/67-introOOP.py" />
         <option value="$PROJECT_DIR$/68-methods.py" />
         <option value="$PROJECT_DIR$/69-docstrings.py" />
+        <option value="$PROJECT_DIR$/../100-pythonExercises/74.py" />
         <option value="$PROJECT_DIR$/70-musicClassExample.py" />
+        <option value="$PROJECT_DIR$/00-practiceExercises.py" />
       </list>
     </option>
   </component>
@@ -284,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,11 +262,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/70-albums.txt" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.69-docstrings">
+  <component name="RunManager" selected="Python.00-practiceExercises">
     <configuration name="00-practiceExercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -399,19 +367,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="74" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="100-pythonProblems" />
+    <configuration name="70-musicClassExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../100-pythonExercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../100-pythonExercises/74.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/70-musicClassExample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,19 +389,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.74" />
       <item itemvalue="Python.00-practiceExercises" />
       <item itemvalue="Python.67-introOOP" />
       <item itemvalue="Python.68-methods" />
       <item itemvalue="Python.69-docstrings" />
+      <item itemvalue="Python.70-musicClassExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.00-practiceExercises" />
+        <item itemvalue="Python.70-musicClassExample" />
         <item itemvalue="Python.69-docstrings" />
         <item itemvalue="Python.68-methods" />
         <item itemvalue="Python.67-introOOP" />
-        <item itemvalue="Python.00-practiceExercises" />
-        <item itemvalue="Python.74" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +427,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32808024" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3495702" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2234957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,20 +490,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/46.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/47.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../100-pythonExercises/45.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -715,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-checkInputFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../100-pythonExercises/sampledata_x_2.txt" />
     <entry file="file://$PROJECT_DIR$/../100-pythonExercises/requestsFile.py" />
     <entry file="file://$PROJECT_DIR$/../100-pythonExercises/68.py">
@@ -777,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/74.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../100-pythonExercises/75.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -798,36 +738,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00-practiceExercises.py">
+    <entry file="file://$PROJECT_DIR$/66-nonlocals.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/70-checkfile.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4710">
-          <caret line="314" selection-start-line="314" selection-end-line="314" />
+        <state relative-caret-position="-792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/70-albums.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-checkInputFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/536139761/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="1062" column="8" selection-start-line="1062" selection-start-column="8" selection-end-line="1062" selection-end-column="8" />
+        <state relative-caret-position="336">
+          <caret line="5593" column="6" selection-start-line="5593" selection-start-column="6" selection-end-line="5593" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/66-nonlocals.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/67-introOOP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <marker date="1539813933146" expanded="true" signature="248:540" ph="..." />
-          </folding>
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/68-methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="195">
           <caret line="14" column="91" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -839,20 +786,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/69-docstrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="336">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <marker date="1539850705542" expanded="true" signature="571:573" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../100-pythonExercises/74.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00-practiceExercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="384" column="7" selection-start-line="384" selection-start-column="7" selection-end-line="384" selection-end-column="7" />
+          <folding>
+            <element signature="e#12711#12726#0" expanded="true" />
+            <marker date="1541044000524" expanded="true" signature="12231:12234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/70-musicClassExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="1650">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
           <folding>
-            <marker date="1539851443628" expanded="true" signature="365:367" ph="..." />
+            <marker date="1540510983200" expanded="true" signature="365:367" ph="..." />
+            <marker date="1540510983200" expanded="true" signature="1273:1275" ph="..." />
           </folding>
         </state>
       </provider>

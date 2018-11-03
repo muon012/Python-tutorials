@@ -304,18 +304,113 @@
 # print(no_copies2(new_list))
 # print(no_copies3(new_list))
 #
-print("------------------------------------ 15 ------------------------------------")
-# Create a program that takes in a sentence and returns the sentence in reverse order, ( It is mine --> mine is It)
+# print("------------------------------------ 15 ------------------------------------")
+# # Create a program that takes in a sentence and returns the sentence in reverse order, ( It is mine --> mine is It)
+#
+#
+# def reverse():
+# 	message = input("Enter a message: ")
+# 	return " ".join(message.split(" ")[::-1])
+#
+#
+# print(reverse())
+# print("------------------------------------ 16 ------------------------------------")
+# # Password generator
+# # Write a password generator in Python. Be creative with how you generate passwords - strong passwords have
+# # a mix of lowercase letters, uppercase letters, numbers, and symbols. The passwords should be random, generating
+# # a new password every time the user asks for a new password. Include your code in a main method.
+# #
+# # Extra:
+# #
+# # Ask the user how strong they want their password to be. For weak passwords, pick a word or two from a list.
+# import string
+# import random
+#
+# letters = string.ascii_letters
+# lower = string.ascii_lowercase
+# upper = string.ascii_uppercase
+# symbols = string.punctuation
+# word_list = ["may", "sushi", "orange", "yellow", "rice", "sun", "papa", "beta", "panda", "whale", "zoo", "variable"]
+# print(len(lower))
+# print(len(upper))
+# print(len(symbols))
+#
+#
+# def pass_generator(strength):
+# 	password = []
+# 	if 0 < strength < 11:
+# 		if strength > 7:
+# 			for i in range(2):
+# 				letter_random = random.randint(0, 25)
+# 				second_letter_random = random.randint(0, 25)
+# 				symbol_random = random.randint(0, 31)
+# 				second_symbol_random = random.randint(0, 31)
+# 				password.append(symbols[symbol_random] + letters[letter_random] + symbols[second_symbol_random] + upper[second_letter_random])
+# 		elif strength > 4:
+# 			for i in range(1):
+# 				word_random = random.randint(0, 11)
+# 				second_word_random = random.randint(0, 11)
+# 				symbol_random = random.randint(0, 31)
+# 				second_symbol_random = random.randint(0, 31)
+# 				password.append(symbols[symbol_random] + word_list[word_random] + symbols[second_symbol_random] + word_list[second_word_random])
+# 		else:
+# 			for i in range(1):
+# 				word_random = random.randint(0, 11)
+# 				symbol_random = random.randint(0, 31)
+# 				second_symbol_random = random.randint(0, 31)
+# 				password.append(symbols[symbol_random] + word_list[word_random] + symbols[second_symbol_random])
+# 	else:
+# 		print("Your number is not correct.")
+# 	return "".join(password)
+#
+#
+# while True:
+# 	try:
+# 		choice = int(input("How strong do you want you password?\n1(weak)-10(strong): "))
+# 	except ValueError:
+# 		print("Not an integer. Try again!")
+# 		continue
+# 	else:
+# 		break
+#
+# print(pass_generator(choice))
+#
+print("------------------------------------ 17 ------------------------------------")
+# Decode a web page
+# Use the BeautifulSoup and requests Python packages to print out a list of all the article titles
+# on the New York Times homepage.
+import requests
+import bs4
+
+url = ""
 
 
-def reverse():
-	message = input("Enter a message: ")
-	return " ".join(message.split(" ")[::-1])
-
-
-print(reverse())
+# print("------------------------------------ 38 ------------------------------------")
+# # Bubble sort
+# list1 = [32, 5, 45, 32, 34, 1, 20]
+# print(list1)
+#
+# # Initialize a boolean variable so we can start a while loop
+# sorted_bool = False
+#
+# while not sorted_bool:
+# 	# Assume the loop is now sorted correctly. When the last sorting is made, the loop is still False(see if- block at
+# 	# the bottom), so it will loop one more time, set the boolean to True and because there is no change (the list was
+# 	# sorted already) the loop will stop the next time it tries to loop.
+# 	sorted_bool = True
+#
+# 	# Loop amongst all the elements in the list, but because we are comparing an element to the next, we need to limit
+# 	# the range to "lengthOfList - 1 " because if we use just the "lengthOfList," it will go out of range in the
+# 	# last iteration.
+# 	for i in range(len(list1) - 1):
+# 		if list1[i] > list1[i + 1]: # Check if the current element is greater than the next element
+# 			sorted_bool = False # If such check is true, then it means the list is not sorted, so we set the loop to False
+# 			list1[i], list1[i + 1] = list1[i + 1], list1[i] # We change the current element and next to the next
+# 			# element followed by the current one.
+#
+# print(list1)
 # print("------------------------------------ 39 ------------------------------------")
-# # Create a program that randomizes the order of the alphabet, but lower and upper case letters
+# # Create a program that randomizes the order of the alphabet, both lower and upper case letters
 # import random
 #
 #
