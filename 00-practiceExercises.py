@@ -375,16 +375,95 @@
 #
 # print(pass_generator(choice))
 #
-print("------------------------------------ 17 ------------------------------------")
-# Decode a web page
-# Use the BeautifulSoup and requests Python packages to print out a list of all the article titles
-# on the New York Times homepage.
+# print("------------------------------------ 17 ------------------------------------")
+# # Decode a web page
+# # Use the BeautifulSoup and requests Python packages to print out a list of all the article titles
+# # on the New York Times homepage.
+# import requests
+# from bs4 import BeautifulSoup
+#
+# url = "https://www.nytimes.com/"
+# r = requests.get(url)
+# r_html = r.text # This gives a string of the whole website;
+#
+# soup = BeautifulSoup(r_html, "html.parser")
+#
+# # Here we will store all the article titles;
+# articles_list = []
+#
+# # These classes seemed to have all the article titles, so we append each of them to the list declared before;
+# for title in soup.find_all("h2", class_="css-1qzcsb esl82me2"):
+# 	articles_list.append(title.string)
+#
+# for title in soup.find_all("h2", class_="css-8uvv5f esl82me2"):
+# 	articles_list.append(title.string)
+#
+# for title in soup.find_all("h2", class_="css-78b01r esl82me2"):
+# 	articles_list.append(title.string)
+#
+# # Finally, we display all the articles;
+# for i in articles_list:
+# 	print(i)
+#
+# # print("------------------------------------ 18 ------------------------------------")
+# # Cows and bulls game
+# # Randomly generate a 4-digit number. Ask the user to guess a 4-digit number.
+# # For every digit that the user guessed correctly in the correct place, they have a “cow”.
+# # For every digit the user guessed correctly in the wrong place is a “bull.”
+# # Every time the user makes a guess, tell them how many “cows” and “bulls” they have.
+# # Once the user guesses the correct number, the game is over.
+# # Keep track of the number of guesses the user makes throughout the game and tell the user at the end.
+#
+# import random
+#
+#
+# def rand_num_gen():
+# 	list_1 = []
+# 	for ii in range(4):
+# 		num = random.randint(0, 9)
+# 		list_1.append(str(num))
+# 	return "".join(list_1)
+#
+#
+# def comparing_nums(user_num, random_num):
+# 	cowsbulls = [0, 0]
+# 	for k in range(len(random_num)):
+# 		if user_num[k] == random_num[k]:
+# 			cowsbulls[0] += 1
+# 		else:
+# 			cowsbulls[1] += 1
+# 	return cowsbulls
+#
+#
+# ran_num = rand_num_gen()
+# guesses = 0
+# game_over = False
+#
+# while not game_over:
+# 	guess = input("Enter a 4-digit number: ")
+# 	cowbull_count = comparing_nums(guess, ran_num)
+# 	if guess == ran_num:
+# 		print("You win!! The random number was {}.".format(ran_num))
+# 		break
+# 	guesses += 1
+# 	print("Cows: {}, Bulls: {}, Guesses: {}".format(cowbull_count[0], cowbull_count[1], guesses))
+# 	print("Try again.")
+#
+print("------------------------------------ 19 ------------------------------------")
+# Get all the lines from a news article online;
+# Using the requests and BeautifulSoup Python libraries,
+# print to the screen the full text of the article on this website:
+# http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture
 import requests
-import bs4
+from bs4 import BeautifulSoup
 
-url = ""
+url = "http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture"
+r = requests.get(url)
+r_text = r.text
 
-
+soup = BeautifulSoup(r_text, "html.parser")
+for i in soup.find_all("p"):
+	print(i.text)
 # print("------------------------------------ 38 ------------------------------------")
 # # Bubble sort
 # list1 = [32, 5, 45, 32, 34, 1, 20]
