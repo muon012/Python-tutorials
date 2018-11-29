@@ -3,6 +3,8 @@
 
 # If the relationship can be defined as "is a" then use inheritance. Vampire "is a" Enemy class;
 # If the relationship can be defined as "has a" then use composition. Duck "has a" Wing object;
+
+
 class Wing(object):
 
 	def __init__(self, ratio):
