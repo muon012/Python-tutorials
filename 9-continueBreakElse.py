@@ -57,7 +57,12 @@ for i in range(0, 100, 7):
         print(i)
         if (i % 11 == 0) and (i > 0):
             break
+
+print("\nQ2:\n")
 # Write a program that prints out all the numbers from 0 to 20 that aren't divisible by 3 or 5 using "continue":
+# "continue" allows you to skip the current iteration and go to the next one when a certain condition is met. It will go
+# back to the top of the loop, skipping the rest of the code below it. In this example when i is divisible by 3 or 5 it
+# doesn't reach the print statement and goes to the beginning of the loop and the next value of i;
 for i in range(0, 21):
     if (i % 3 == 0) or (i % 5 == 0):
         continue

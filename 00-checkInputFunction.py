@@ -22,4 +22,5 @@ def input_number2(text="Please input a number: "):
 		except ValueError:
 			print("Not an integer! Try again.")
 
-number2 = input_number2("Please enter a second number")
+
+number2 = input_number2("Please enter a second number: ")

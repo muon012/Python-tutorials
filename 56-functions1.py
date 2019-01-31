@@ -17,11 +17,12 @@ print("----------------------- 2 -----------------------")
 def python_meal():
 	width = 80
 	text = "Spam and eggs"
-	left_margin = (width - len(text)) // 2 # Remember "//" returns an integer as the answer.
+	left_margin = (width - len(text)) // 2  # Remember "//" returns an integer as the answer.
 	print(" " * left_margin, text)
 
 
 python_meal()
+
 
 def center_text(text):
 	text = str(text)

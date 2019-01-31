@@ -449,21 +449,91 @@
 # 	print("Cows: {}, Bulls: {}, Guesses: {}".format(cowbull_count[0], cowbull_count[1], guesses))
 # 	print("Try again.")
 #
-print("------------------------------------ 19 ------------------------------------")
-# Get all the lines from a news article online;
-# Using the requests and BeautifulSoup Python libraries,
-# print to the screen the full text of the article on this website:
-# http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture
-import requests
-from bs4 import BeautifulSoup
+# print("------------------------------------ 19 ------------------------------------")
+# # Get all the lines from a news article online;
+# # Using the requests and BeautifulSoup Python libraries,
+# # print to the screen the full text of the article on this website:
+# # http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture
+# import requests
+# from bs4 import BeautifulSoup
+#
+# url = "http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture"
+# r = requests.get(url)
+# r_text = r.text
+#
+# soup = BeautifulSoup(r_text, "html.parser")
+# for i in soup.find_all("p"):
+# 	print(i.text)
+#
+print("------------------------------------ 20 ------------------------------------")
+# Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to
+# largest) and another number. The function decides whether or not the given number is inside the list and returns
+# (then prints) an appropriate boolean.
 
-url = "http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture"
-r = requests.get(url)
-r_text = r.text
 
-soup = BeautifulSoup(r_text, "html.parser")
-for i in soup.find_all("p"):
-	print(i.text)
+def is_present(list_x, number):
+	presence = False # Number is not present in the list
+	for i in list_x:
+		if number == i:
+			presence = True
+	return presence
+
+
+def binary_search(list_x, number):
+	lower = 0
+	upper = len(list_x) - 1
+	present = False
+	while lower <= upper and not present:
+		# Use <= because for arrays of even length the final check will lead to upper/lower being equal to middle and
+		# break out of the loop.
+		middle = (lower + upper) // 2
+		print("Lower element is: {}, Middle element is: {}, Upper element is: {}".format(list_x[lower], list_x[middle], list_x[upper]))
+		# print("Lower is: {}, Middle is: {}, Upper is: {}".format(lower, middle, upper))
+		if number == list_x[middle]:
+			present = True
+		else:
+			if number < list_x[middle]:
+				upper = middle - 1
+			else:
+				lower = middle + 1
+	return present
+
+
+list1 = [-5, -1, 0, 2, 7, 9, 20]
+test_number = int(input("Input an integer to check if it is in the list: "))
+print("Using a normal function: ", is_present(list1, test_number))
+print("Using binary search: ", binary_search(list1, test_number))
+
+
+# print("------------------------------------ 37 ------------------------------------")
+# # Create a simple program that randomly chooses an element from list but goes through the whole list before
+# # choosing the same element again;
+# import random
+#
+# list1 = [11, 22, 33, 44, 55]
+# list3 = [11, 22, 33, 44, 55]
+# list2 = []
+# randomList = []
+# # while len(list2) < 5:
+# # 	random_number = random.randint(0, 4)
+# # 	while random_number not in list2:
+# # 		list2.append(random_number)
+# # 		print(list1[random_number])
+#
+# while len(randomList) < 5:
+# 	random_number = random.randint(0, 4)
+# 	while random_number not in randomList:
+# 		randomList.append(random_number)
+#
+# for i in randomList:
+# 	print(list1[i], end="\t")
+# print()
+# # random.shuffle(list1)
+# # print(list1)
+# # list3.clear()
+# # print(list3)
+# print(randomList)
+#
 # print("------------------------------------ 38 ------------------------------------")
 # # Bubble sort
 # list1 = [32, 5, 45, 32, 34, 1, 20]

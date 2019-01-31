@@ -1,6 +1,6 @@
 # print("------------------------------------- 1 ----------------------------------------")
 # # We will concatenate arguments passed through a function
-# # Using "*" as a parameter of a function means that there could be any number  of parameters passed in this function.
+# # Using "*" as a parameter of a function means that there could be any number of parameters passed in this function.
 # # Also you can change the name after the "*" to anything you want.
 #
 # def center_text(*args):

@@ -1,6 +1,6 @@
 # You use try whenever a block of code is likely to produce an error;
 # The "try:" block is executed, if there is an error and the correct type of exception error is
-# specified in the "except:" block, then the code after "except:" will be executed; If the correct exception is not
+# specified in the "except:" block, then the code in "except:" will be executed; If the correct exception is not
 # specified, then the program will crash since the error will take you out of the program;
 # If there is no error, the "except:" code is skipped and the program continues as normal;
 # It's good practice to be specific about the correct type of exception, that way we can handle the error appropriately;
@@ -30,7 +30,7 @@ try:
 except AttributeError:
 	print("Are you sure you are calling the right attribute?")
 except ZeroDivisionError:
-	print("This is not calculus, you can't divide by zero!")
+	print("You can't divide by zero!")
 
 # Here we have one except statement handling some specific cases; This is also not recommended since we don't know
 # which exception was raised. This is only ok when both exceptions are pretty similar;
@@ -53,8 +53,8 @@ def int_handling(prompt):
 			x = int(input(prompt))
 		except ValueError:
 			print("You didn't type a number.")
-		except EOFError:
-			print("Check the exit code!!")
+		except EOFError:  # Use "cmd + D" on a mac to raise this exception
+			print("Check the exit code!It changed value thanks to the sys module")
 			sys.exit(100)
 		else:
 			print("Thanks!")
