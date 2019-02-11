@@ -4,8 +4,9 @@
 # In most documentation, *args just means that the function/method will pass an indefinite number of
 # arguments (*args) that are stored in a tuple (args);
 # kwargs: It stands for key-word arguments, in other words, any dictionary;
+# You pass a key-value pairs as arguments like "users(name="John", age=53, email="1234@email.com")", so you are
+# literally passing a dictionary as an argument to the function.
 # **kwargs unpacks a dictionary, but remember that dictionaries are not ordered;
-
 
 
 # Challenge 1:

@@ -28,10 +28,15 @@ for i in range(1, 12):
 
 
 # "12.50f"
-# 12 means the total number of digits including before and after the decimal.
+# The 12 is the total field width, and will be ignored if the number won't fit in that many characters,
+# with the specified precision.
 # 50 means the number of decimals
-# f means that this is a float
+# f means that this is a float point type
 print("Pi is approximately {0:12.50f}".format(22 / 7))
+print("Pi is approximately {0:12} hi".format(1234567890123))
+x = 2200 / 7
+print("{0:60.30}".format(x))  # Total width = 60, number of digits = 30
+print("{0:60.30f}".format(x))  # Total width = 60, number of decimals (precision) = 30
 
 # when using replacement fields "{}" if you don't specify the number inside each field, python will automatically
 # fill them in order, like on the next example

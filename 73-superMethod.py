@@ -3,6 +3,7 @@
 
 import random
 
+
 class Enemy:
 
 	def __init__(self, name="Enemy", hit_points=0, lives=1):
@@ -59,11 +60,11 @@ class Vampire(Enemy):
 class VampireKing(Vampire):
 
 	def __init__(self, name):
-		super().__init__(name=name) # Only needs "name" argument since the parent class is Vampire, not Enemy!!;
+		super().__init__(name=name)  # Only needs "name" argument since the parent class is Vampire, not Enemy!!;
 		self._hit_points = 140
 
 	def take_damage(self, damage):
-		super().take_damage(damage // 4) # This super class method is calling Vampire first;
+		super().take_damage(damage // 4)  # This super class method is calling Vampire first;
 
 
 print("=" * 80)

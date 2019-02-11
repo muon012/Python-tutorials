@@ -9,7 +9,7 @@
 #
 # print("=" * 40)
 #
-# # we can turn a list into a set by using the ".set()" function.
+# # we can turn a list into a set by using the "set()" function.
 # wild_animals = set(["lion", "tiger", "panther", "elephant", "hare"])
 # print(wild_animals)
 #
@@ -18,7 +18,7 @@
 #
 # # If you want to create an empty set (initialize it), you should not use empty brackets "{}"
 # # because this will create an empty dictionary.
-# # Instead you should use the ".set()" function
+# # Instead you should use the "set()" function
 # # If you want to add elements to the set you should use the ".add()" function with the element you want
 # # to add passed as a parameter.
 #
@@ -73,7 +73,7 @@
 # print(even.intersection(squares))
 # print(even & squares)
 #
-# print("----------------------- 4 -----------------------")
+print("----------------------- 4 -----------------------")
 # # DIFFERENCE
 # # We will use "sorted()" function to order the sets, so it will return a list instead of a set (just remember
 # # we are working with sets and not lists).
@@ -82,7 +82,7 @@
 # # are working with sets and not number types.
 # even = set(range(0, 40, 2))
 # print("This is the EVEN set: {}".format(sorted(even)))
-# squares_tuple = (4, 9, 16, 25,36)
+# squares_tuple = (4, 9, 16, 25, 36)
 # squares = set(squares_tuple)
 # print("This is the SQUARES set: {}".format(sorted(squares)))
 #
@@ -93,7 +93,7 @@
 # print("Squares minus even")
 # print(sorted(squares.difference(even)))
 # print(sorted(squares - even))
-#
+
 # print("----------------------- 5 -----------------------")
 # # UPDATE
 # # ".difference_update()" changes the set that is before the dot. It does the same as ".difference()" but
@@ -192,6 +192,6 @@ print("----------------------- 11 -----------------------")
 # FROZENSET
 # A frozen set is a set that is immutable.
 
-even = frozenset(range(0, 100, 2))
-print(even)
-even.remove(0) # Returns " AttributeError: 'frozenset' object has no attribute 'remove' "
+# even = frozenset(range(0, 100, 2))
+# print(even)
+# even.remove(0) # Returns " AttributeError: 'frozenset' object has no attribute 'remove' "
