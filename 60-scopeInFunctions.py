@@ -41,10 +41,24 @@ for x in range(-500, 500):
 
 
 # SCOPE IN FUNCTIONS
-# In line 23, the function "draw_axes" uses a parameter named "canvas" but this name is also the name of a global
+# In line 20, the function "draw_axes" uses a parameter named "canvas" but this name is also the name of a global
 # variable,a variable outside the function and available to ALL the program in this code.
 # Therefore, if you try to use "canvas", the global variable, inside this function, you won't be able to.
 # The function NOW only recognizes "canvas" as a parameter and not as a variable to the program.
+
+
+# Look at this example of scope:
+def first():
+	b = " there,"
+	def second():
+		c = "how are you?"
+		print(a + b + c)
+	second()
+
+
+a = "hello"
+
+first()
 
 # We will create a second canvas variable to further illustrate this point.
 canvas2 = tk.Canvas(mainWindow, width=250, height=400, background="green")

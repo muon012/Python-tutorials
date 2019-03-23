@@ -9,7 +9,7 @@ print("all: {}".format(all(entries)))
 print("any: {}".format(any(entries)))
 
 print()
-print("Iterable with a'False' value")
+print("Iterable with a 'False' value")
 entries_with_zero = [1, 2, 0, 4, 5]
 print(entries_with_zero)
 print("all: {}".format(all(entries_with_zero)))
@@ -42,13 +42,17 @@ else:
 	print("Hello person with no name.")
 
 print("=" * 80)
-# Special case to check "Truism" of an empty list
+
+# Special case to check "Truism" of an empty list.
+# all() returns True for an empty list when it should return False
 numbers = []
-print("all() return value for {} is {}".format(numbers, all(numbers)))
+print("The return value of 'all({})' is: {}".format(numbers, all(numbers)))
+
+# This is a better way to check if a list is empty or not:
 if numbers:
-	print("The list is not empty, ergo it returns a True value")
+	print("The list is not empty because the boolean expression returns True")
 else:
 	print("False. Empty list")
 
-result = bool(entries_with_zero) and all(numbers)
+result = bool(numbers) and all(numbers)  # False and True return False
 print(result)

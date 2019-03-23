@@ -10,7 +10,7 @@ a, b = b, a
 print("a is {}, and b is {}".format(a, b))
 
 
-# This creates an infinite series, the can be call and give the next value infinitely.
+# This creates an infinite series that can be called and give the next value infinitely.
 # Use "while True" (maybe always?), and set the function equalled to a variable
 def fibonacci():
 	previous, current = 0, 1
@@ -28,7 +28,7 @@ print(next(fib))
 print(next(fib))
 print(next(fib))
 
-
+print()
 # Odd number generator.
 def odd_gen():
 	start = 1

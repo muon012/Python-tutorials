@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="100-pythonProblems" />
     <orderEntry type="module" module-name="100-pythonProblems" />
     <orderEntry type="module" module-name="python" />
+    <orderEntry type="module" module-name="python3HardWay" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

@@ -2,6 +2,7 @@
 # The "try:" block is executed, if there is an error and the correct type of exception error is
 # specified in the "except:" block, then the code in "except:" will be executed; If the correct exception is not
 # specified, then the program will crash since the error will take you out of the program;
+
 # If there is no error, the "except:" code is skipped and the program continues as normal;
 # It's good practice to be specific about the correct type of exception, that way we can handle the error appropriately;
 # However, it is possible to just write "except Exception:" to catch most exceptions since a lot of the exceptions
@@ -14,6 +15,7 @@ def factorial(n):
 	if n > 1:
 		return n * factorial(n - 1)
 	return 1
+
 
 # A general, non-specific exception handling but not recommended;
 try:

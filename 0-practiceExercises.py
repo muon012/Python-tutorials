@@ -1,4 +1,5 @@
 # print("------------------------------------ 1 ------------------------------------")
+# # "Character input"
 # # Ask the use for name and age and tell him when he will be 100 years old;
 # name = input("What is your name?: ")
 # ageString = input("What is your age: ")
@@ -9,6 +10,7 @@
 # print("{} will be 100 years old in {}.".format(name, yearCentury))
 #
 # print("------------------------------------ 2 ------------------------------------")
+# # "Odd or even"
 # # Ask the use to input a number, you will then tell him whether it was odd or even;
 #
 # number = int(input("Please input a number: "))
@@ -31,6 +33,7 @@
 # 	print("Your numerator does not go evenly into the denominator.")
 #
 # print("------------------------------------ 3 ------------------------------------")
+# # "List less than five"
 # # Write a program that prints out all the elements of the list that are less than 5;
 # # EXTRAS:
 # # Instead of printing the elements one by one, make a new list that has all the elements
@@ -55,6 +58,7 @@
 # print(userList)
 #
 # print("------------------------------------ 4 ------------------------------------")
+# # "Divisors"
 # # Create a program that asks the user for a number and then prints out a list of all the divisors of that number.
 # # (If you don’t know what a divisor is, it is a number that divides evenly into another number.
 # # For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
@@ -67,6 +71,7 @@
 # print("Here is a list of all the divisors of {}:\n{}".format(userInput, divisorsList))
 #
 # print("------------------------------------ 5 ------------------------------------")
+# # "List overlap"
 # # write a program that returns a list that contains only the elements that are common between the lists but doesn't
 # # have duplicates;
 #
@@ -80,6 +85,7 @@
 # print(sharedElem)
 #
 # print("------------------------------------ 6 ------------------------------------")
+# # "String lists"
 # # Ask the user for a string and print out whether this string is a palindrome or not.
 # # (A palindrome is a string that reads the same forwards and backwards.)
 #
@@ -93,6 +99,7 @@
 # 	print("Your word: {}, is not a palindrome.".format(userString))
 #
 # print("------------------------------------ 7 ------------------------------------")
+# # "List comprehensions"
 # # Write one line of Python that takes this list a and makes a new list that has only
 # # the even elements of this list in it.
 # # List compression!!
@@ -104,7 +111,7 @@
 # print(newList)
 #
 # print("------------------------------------ 8 ------------------------------------")
-# # Create a rock, paper, scissors game;
+# # "Rock, paper, scissors"
 #
 # import random
 #
@@ -139,6 +146,7 @@
 # 		print("Incorrect input! Try again.")
 #
 # print("------------------------------------ 9 ------------------------------------")
+# # "Guessing game I"
 # # Generate a random number between 1 and 9 (including 1 and 9).
 # # Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right.
 #
@@ -167,6 +175,7 @@
 # 			rd = random.randint(randomFirst, randomEnd)
 #
 # print("------------------------------------ 10 ------------------------------------")
+# # "List overlap comprehensions"
 # # Repeat exercise 5 but now with list compression;
 # # Use two random lists;
 #
@@ -198,6 +207,7 @@
 # print(goodList) # Final result!
 #
 # print("------------------------------------ 11 ------------------------------------")
+# # "Check Primality with a function"
 # # Ask the user for a number and determine whether the number is prime or not;
 #
 #
@@ -239,6 +249,7 @@
 # print_boolean(is_prime(number))
 #
 # print("------------------------------------ 12 ------------------------------------")
+# # "List ends"
 # # Write a program that takes in a list and creates a new list of only the first and last elements;
 # # Use functions;
 #
@@ -252,8 +263,8 @@
 # print(endpoints(test))
 #
 # print("------------------------------------ 13 ------------------------------------")
+# # "Fibonacci"
 # # Write a program that asks the user how many Fibonacci numbers to print;
-#
 #
 # def fibonacci():
 # 	n = int(input("How many Fibonacci numbers do you want to see? "))
@@ -274,6 +285,7 @@
 # fibonacci()
 #
 # print("------------------------------------ 14 ------------------------------------")
+# # "List remove duplicates"
 # # Write a program that takes a list and returns a new one that contains all the elements of the first list except
 # # the duplicates.
 #
@@ -305,6 +317,7 @@
 # print(no_copies3(new_list))
 #
 # print("------------------------------------ 15 ------------------------------------")
+# # "Reverse word order"
 # # Create a program that takes in a sentence and returns the sentence in reverse order, ( It is mine --> mine is It)
 #
 #
@@ -376,7 +389,7 @@
 # print(pass_generator(choice))
 #
 # print("------------------------------------ 17 ------------------------------------")
-# # Decode a web page
+# # "Decode a web page"
 # # Use the BeautifulSoup and requests Python packages to print out a list of all the article titles
 # # on the New York Times homepage.
 # import requests
@@ -406,7 +419,7 @@
 # 	print(i)
 #
 # # print("------------------------------------ 18 ------------------------------------")
-# # Cows and bulls game
+# # "Cows and bulls game"
 # # Randomly generate a 4-digit number. Ask the user to guess a 4-digit number.
 # # For every digit that the user guessed correctly in the correct place, they have a “cow”.
 # # For every digit the user guessed correctly in the wrong place is a “bull.”
@@ -450,6 +463,7 @@
 # 	print("Try again.")
 #
 # print("------------------------------------ 19 ------------------------------------")
+# # "How to decode a website"
 # # Get all the lines from a news article online;
 # # Using the requests and BeautifulSoup Python libraries,
 # # print to the screen the full text of the article on this website:
@@ -465,46 +479,336 @@
 # for i in soup.find_all("p"):
 # 	print(i.text)
 #
-print("------------------------------------ 20 ------------------------------------")
-# Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to
-# largest) and another number. The function decides whether or not the given number is inside the list and returns
-# (then prints) an appropriate boolean.
+# print("------------------------------------ 20 ------------------------------------")
+# # Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to
+# # largest) and another number. The function decides whether or not the given number is inside the list and returns
+# # (then prints) an appropriate boolean.
+#
+#
+# def is_present(list_x, number):
+# 	presence = False # Number is not present in the list
+# 	for i in list_x:
+# 		if number == i:
+# 			presence = True
+# 	return presence
+#
+#
+# def binary_search(list_x, number):
+# 	lower = 0
+# 	upper = len(list_x) - 1
+# 	present = False
+# 	while lower <= upper and not present:
+# 		# Use <= because for arrays of even length the final check will lead to upper/lower being equal to middle and
+# 		# break out of the loop.
+# 		middle = (lower + upper) // 2
+# 		print("Lower element is: {}, Middle element is: {}, Upper element is: {}".format(list_x[lower], list_x[middle],
+#  				list_x[upper]))
+# 		# print("Lower is: {}, Middle is: {}, Upper is: {}".format(lower, middle, upper))
+# 		if number == list_x[middle]:
+# 			present = True
+# 		else:
+# 			if number < list_x[middle]:
+# 				upper = middle - 1
+# 			else:
+# 				lower = middle + 1
+# 	return present
+#
+#
+# list1 = [-5, -1, 0, 2, 7, 9, 20]
+# test_number = int(input("Input an integer to check if it is in the list: "))
+# print("Using a normal function: ", is_present(list1, test_number))
+# print("Using binary search: ", binary_search(list1, test_number))
+#
+# print("------------------------------------ 21 ------------------------------------")
+# # "Write to a file"
+# # Write the results from exercise 19 into a file.
+# # Remember that you must pass STRINGS only to the block code of "with open()".
+# # Extra: Let the user choose the file's name.
+#
+# import requests
+# from bs4 import BeautifulSoup
+#
+# url = "http://www.vanityfair.com/society/2014/06/monica-lewinsky-humiliation-culture"
+# r = requests.get(url)
+# r_text = r.text
+#
+# soup = BeautifulSoup(r_text, "html.parser")
+# file_name = input("What name do you want to give the file? (use '0-ex_21' for this problem): ")
+# with open(file_name + ".txt", "w") as txt_file:
+# 	for i in soup.find_all("p"):
+# 		print(i.text, file=txt_file)
+#
+# print("------------------------------------ 22 ------------------------------------")
+# # "Read from a file"
+# # Given a .txt file that has a list of a bunch of names, count how many of each name there are in the file,
+# # and print out the results to the screen.
+# # Extra: Use the SUN-database file to count how many pictures each directory has.
+#
+# with open("0-ex_22.txt", "r") as f:
+# 	lines = f.readlines()  # This returns a list of each line in the file.
+#
+# names_set = set()
+# for l in lines:
+# 	names_set.add(l.strip("\n"))
+#
+# darth_count = 0
+# luke_count = 0
+# lea_count = 0
+# for line in lines:
+# 	if line.strip("\n") == "Darth":
+# 		darth_count += 1
+# 	elif line.strip("\n") == "Luke":
+# 		luke_count += 1
+# 	elif line.strip("\n") == "Lea":
+# 		lea_count += 1
+# print("{} : {}".format("Darth", darth_count))
+# print("{} : {}".format("Luke", luke_count))
+# print("{} : {}".format("Lea", lea_count))
+#
+# # Website's solution
+# counter_dict = {}
+# with open('0-ex_22.txt') as f:
+# 	line = f.readline()
+# 	while line:
+# 		line = line.strip()
+# 		if line in counter_dict:
+# 			# If the key (Darth, Luke, Lea) is in the dictionary "counter_dict" then increase it by one.
+# 			counter_dict[line] += 1
+# 		else:
+# 			# If there is no key of Darth, Luke, or Lea, then it will be added and initialized to 1 to the dictionary
+# 			# simultaneously.
+# 			counter_dict[line] = 1
+# 		line = f.readline()
+#
+# print(counter_dict)
+#
+# sun_dict = {}
+# with open("0-ex_22_challenge.txt", "r") as f:
+# 	line = f.readline().strip()
+# 	while line:
+# 		if line[3:].split("/")[0] in sun_dict:
+# 			sun_dict[line[3:].split("/")[0]] += 1
+# 		else:
+# 			sun_dict[line[3:].split("/")[0]] = 1
+# 		line = f.readline().strip()
+#
+# print(sun_dict)
+# print("------------------------------------ 23 ------------------------------------")
+# # "File overlap"
+# # Given two .txt files that have lists of numbers in them, find the numbers that are overlapping.
+#
+# happy_set = set()
+# with open("0-ex_23_happy.txt", "r") as f:
+# 	line = f.readline().strip()
+# 	while line:
+# 		happy_set.add(line)
+# 		line = f.readline().strip()
+#
+# print(happy_set)
+#
+# prime_set = set()
+# with open("0-ex_23_prime.txt", "r") as f:
+# 	line = f.readline().strip()
+# 	while line:
+# 		prime_set.add(line)
+# 		line = f.readline().strip()
+#
+# print(prime_set)
+#
+# print(happy_set & prime_set)
+# print("------------------------------------ 24 ------------------------------------")
+# # "Draw a game board"
+# # Ask the user what size game board they want to draw, and draw it to the screen using Python’s print statement.
+# #  --- --- ---
+# # |   |   |   |
+# #  --- --- ---
+# # |   |   |   |
+# #  --- --- ---
+# # |   |   |   |
+# #  --- --- ---
+#
+# # Space at start and end (both) = 1
+# print(" --- ")
+#
+# # Space in between = 3
+# print("|   |")
+#
+# # Space at start and end (both) = 1
+# print(" --- ")
+#
+# print("\n" * 2)
+#
+# board_prompt = "What size, n, for your board would you like? n x n : "
+#
+#
+# def board(prompt: str):
+# 	while True:
+# 		try:
+# 			size = int(input(prompt))
+# 		except ValueError:
+# 			print("Please input a integer value!")
+# 		else:
+# 			for i in range(size):
+# 				print(" ---" * size)
+# 				middle_lines = size + 1
+# 				print("|   " * middle_lines)
+# 			print(" ---" * size)
+#
+#
+# board(board_prompt)
+#
+# print("------------------------------------ 25 ------------------------------------")
+# # "Guessing Game Two"
+# # You, the user, will have in your head a number between 0 and 100. The program will guess a number, and you,
+# # the user, will say whether it is too high, too low, or your number.
+# # At the end of this exchange, your program should print out how many guesses it took to get your number.
+#
+# print("Think of a number between 0 - 100. I, this program, will guess it!")
+#
+# range_min = 0
+# range_max = 100
+# guess_count = 1
+# while True:
+# 	halfway = (range_min + range_max) // 2
+# 	print("Is it {}?".format(halfway))
+# 	user_guess = input("Enter 'correct' if my guess is correct, 'higher' if your number is bigger than my guess, or"
+# 					   "'lower' if your number is lower than my guess: ")
+# 	if user_guess == "correct":
+# 		break
+# 	elif user_guess == "higher":
+# 		range_min = halfway + 1
+# 		guess_count += 1
+# 		continue
+# 	elif user_guess == "lower":
+# 		range_max = halfway - 1
+# 		guess_count +=1
+# 		continue
+# 	else:
+# 		print("Use only words: 'higher', 'lower', 'correct'.")
+# 		continue
+#
+# print("It took {} guesses.".format(guess_count))
+#
+print("------------------------------------ 26 ------------------------------------")
+# "Check Tic Tac Toe"
+# Given a 3 by 3 list of lists that represents a Tic Tac Toe game board, tell me whether anyone has won,
+# and tell me which player won, if any. A Tic Tac Toe win is 3 in a row - either in a row, a column, or a diagonal.
+# Don’t worry about the case where TWO people have won - assume that in every board there will only be one
+# winner.
+
+# Diagonal win by player-2
+game_1 = [
+	[2, 0, 1, 0],
+	[1, 2, 2, 1],
+	[1, 0, 2, 1],
+	[0, 1, 0, 2]
+
+]
+
+# Column win by player-1
+game_2 = [
+	[2, 0, 2, 0],
+	[1, 0, 2, 1],
+	[2, 0, 2, 1],
+	[2, 2, 0, 4]
+
+]
+
+# Inverse diagonal win by player-2
+game_3 = [
+	[1, 1, 2, 2],
+	[0, 1, 2, 1],
+	[1, 2, 1, 0],
+	[2, 2, 1, 0]
+
+]
+
+# Row win by player-1
+game_4 = [
+	[2, 0, 0, 1],
+	[2, 2, 0, 2],
+	[2, 2, 0, 1],
+	[1, 1, 1, 1]
+]
+
+# No winner
+game_5 = [
+	[1, 2, 2],
+	[2, 1, 1],
+	[1, 2, 2]
+]
 
 
-def is_present(list_x, number):
-	presence = False # Number is not present in the list
-	for i in list_x:
-		if number == i:
-			presence = True
-	return presence
+def check_all_equal_diagonal(user_choice: int, game_arrays):
+	initial_index = 0
+	goal_count = len(game_arrays)
+	same = False
+	diagonal_values = []
+	while initial_index < goal_count:
+		for rows in game_arrays:
+			diagonal_values.append(rows[initial_index])
+			initial_index += 1
+	if all(value == user_choice for value in diagonal_values):
+		same = True
+	return same
 
 
-def binary_search(list_x, number):
-	lower = 0
-	upper = len(list_x) - 1
-	present = False
-	while lower <= upper and not present:
-		# Use <= because for arrays of even length the final check will lead to upper/lower being equal to middle and
-		# break out of the loop.
-		middle = (lower + upper) // 2
-		print("Lower element is: {}, Middle element is: {}, Upper element is: {}".format(list_x[lower], list_x[middle], list_x[upper]))
-		# print("Lower is: {}, Middle is: {}, Upper is: {}".format(lower, middle, upper))
-		if number == list_x[middle]:
-			present = True
-		else:
-			if number < list_x[middle]:
-				upper = middle - 1
-			else:
-				lower = middle + 1
-	return present
+def check_all_equal_diagonal_inverse(user_choice: int, game_arrays):
+	initial_index = len(game_arrays) - 1
+	same = False
+	diagonal_values = []
+	while initial_index >= 0:
+		for rows in game_arrays:
+			diagonal_values.append(rows[initial_index])
+			initial_index -= 1
+	if all(value == user_choice for value in diagonal_values):
+		same = True
+	return same
 
 
-list1 = [-5, -1, 0, 2, 7, 9, 20]
-test_number = int(input("Input an integer to check if it is in the list: "))
-print("Using a normal function: ", is_present(list1, test_number))
-print("Using binary search: ", binary_search(list1, test_number))
+def check_all_equal_column(user_choice: int, game_arrays):
+	same = False
+	initial_index = 0
+	set_1 = set()
+	while True:
+		for row in game_arrays:
+			set_1.add(row[initial_index])
+			# if all(column[initial_index] == user_choice for column in game_arrays):
+			# 	same = True
+			# 	break
+			# initial_index += 1
+			if len(set_1) > 1:
+				print("More than 1")
+	return set_1
 
 
+def check_all_equal_row(user_choice: int, game_arrays):
+	same = False
+	for array in game_arrays:
+		if all(element == user_choice for element in array):
+			same = True
+			break
+	return same
+
+
+print(check_all_equal_diagonal(3, game_4))
+print(check_all_equal_diagonal_inverse(50, game_3))
+print(check_all_equal_column(1, game_2))
+print(check_all_equal_row(7, game_5))
+
+print("------------------------------------ 36 ------------------------------------")
+# Super Lotto Picker
+
+import random
+
+lotto_numbers = []
+for i in range(6):
+	single_lotto_number = random.randint(1, 48)
+	if i == 5:
+		single_lotto_number = random.randint(1, 28)
+	lotto_numbers.append(single_lotto_number)
+
+print(lotto_numbers)
 # print("------------------------------------ 37 ------------------------------------")
 # # Create a simple program that randomly chooses an element from list but goes through the whole list before
 # # choosing the same element again;

@@ -1,5 +1,4 @@
 
-
 from collections import namedtuple
 
 people = [
@@ -99,7 +98,7 @@ else:
 # Check the plants_dict for "Grass"
 
 if any(plant.plant_type == "Grass" for plant in plants_dict.values()):
-	print("This dictionary contains grass")
+    print("This dictionary contains grass")
 else:
 	print("No grass in this dictionary")
 
